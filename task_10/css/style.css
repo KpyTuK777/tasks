@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.header {
+	text-align: center;
+}
+.header__container {
+}
+.header__title {
+	max-width: 300px;
+	margin: 0 auto;
+	background-color: green;
+	font-size: 50px;
+	margin-top: 30px;
+	padding: 20px;
+	border-radius: 10px;
+	color: aquamarine;
+}
+.page {
+}
+.section-1 {
+}
+.section-1__container {
+}
+.section-1__card {
+max-width: 265px;
+margin: 20px auto;
+border: #2C742F solid 1px;
+font-family: "Poppins", sans-serif;
+line-height: 150%;
+}
+.card {
+	position: relative;
+}
+.card__image {
+	margin: 5px;
+}
+.card__title {
+	color: #2C742F;
+	margin: 10px 10px;
+	font-size: 14px;
+}
+.card__title>a:hover {
+	text-decoration: underline;
+}
+.card__price {
+	color: #1A1A1A;
+	margin: 10px 10px;
+	font-weight: 500;
+}
+.card__link {
+	width: 40px;
+	height: 40px;
+	border: #E6E6E6 solid 1px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+.card__link:hover {
+background-color: #00B207;
+}
+.card__link--gray {
+	background-color: #F2F2F2;
+}
+#fav {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+#eye {
+	position: absolute;
+	top: 65px;
+	right: 15px;
+}
+#basket {
+	position: absolute;
+	bottom: 20px;
+	right: 15px;
+}
