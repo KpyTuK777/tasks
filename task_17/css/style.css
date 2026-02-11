@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	background-color: #F8F3EC;
+}
+
+[class*="__container"] {
+	max-width: 1370px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.grid {
+	padding-top: 100px;
+}
+.grid__item {
+	max-width: 401px;
+	aspect-ratio: 401 / 427;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	gap: 14px;
+}
+.item {
+}
+.item__image {
+	
+}
+.item__info {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	font-size: 20px;
+	line-height: 110%; /* 22/20 */
+}
+.item__title {
+	font-family: "KoPub Batang", serif;
+	color: #2C2C2C;
+	font-weight: 400;
+}
+.item__price {
+font-family: "Carme", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 122.222222%; /* 22/18 */
+}
+.item__fav {
+	position: absolute;
+	right: 49px;
+	top: 441px;
+}
+.item__cart {
+	position: absolute;
+	right: 6px;
+	top: 441px;
+}

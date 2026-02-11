@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "KoPub Batang";
+	src: url("/task_17/fonts/KoPubBatang-Light.woff2");
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "KoPub Batang";
+	src: url("../fonts/KoPubBatang-Regular.woff2");
+	font-style: normal;
+	font-weight: 400;
+}
